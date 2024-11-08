@@ -1,4 +1,4 @@
-package com.example.camundademo;
+package com.example.flowabledemo;
 
 import org.flowable.engine.delegate.DelegateExecution;
 import org.flowable.engine.delegate.JavaDelegate;

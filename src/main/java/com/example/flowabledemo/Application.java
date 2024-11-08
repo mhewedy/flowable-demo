@@ -1,4 +1,4 @@
-package com.example.camundademo;
+package com.example.flowabledemo;
 
 import org.flowable.engine.RuntimeService;
 import org.flowable.engine.TaskService;
@@ -9,7 +9,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CamundaDemoApplication implements CommandLineRunner {
+public class Application implements CommandLineRunner {
 
     @Autowired
     private RuntimeService runtimeService;
@@ -17,7 +17,7 @@ public class CamundaDemoApplication implements CommandLineRunner {
     private TaskService taskService;
 
     public static void main(String[] args) {
-        SpringApplication.run(CamundaDemoApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
     @Override
